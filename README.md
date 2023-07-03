@@ -73,3 +73,20 @@ API Endpoints:
 -	/api/orders/{orderId}
 -	/api/orders
 -	/api/orders/{orderId}
+
+## Running the API
+1. Prepare your virtual environment and install all dependencies using the following commands:
+
+- `cd LittleLemon`
+
+- `pipenv shell`
+
+- `pipenv install`
+
+2. Run the app using these commands:
+
+- `python manage.py makemigrations `
+
+- `python manage.py migrate`
+
+- `python manage.py runserver`
