@@ -10,27 +10,27 @@ By the end of this course you will be able to:
 -	Test, optimize and develop documentation for an API
 
 ## Capabilities
-1. The admin can assign users to the manager group
-2. You can access the manager group with an admin token
-3. The admin can add menu items 
-4. The admin can add categories
-5. Managers can log in 
-6. Managers can update the item of the day
-7. Managers can assign users to the delivery crew
-8. Managers can assign orders to the delivery crew
-9. The delivery crew can access orders assigned to them
-10. The delivery crew can update an order as delivered
-11. Customers can register
-12. Customers can log in using their username and password and get access tokens
-13. Customers can browse all categories 
-14. Customers can browse all the menu items at once
-15. Customers can browse menu items by category
-16. Customers can paginate menu items
-17. Customers can sort menu items by price
-18. Customers can add menu items to the cart
-19. Customers can access previously added items in the cart
-20. Customers can place orders
-21. Customers can browse their own orders
+- [x] The admin can assign users to the manager group
+- [x] You can access the manager group with an admin token
+- [x] The admin can add menu items 
+- [x] The admin can add categories
+- [x] Managers can log in 
+- [x] Managers can update the item of the day
+- [x] Managers can assign users to the delivery crew
+- [ ] Managers can assign orders to the delivery crew
+- [x] The delivery crew can access orders assigned to them
+- [ ] The delivery crew can update an order as delivered
+- [x] Customers can register
+- [x] Customers can log in using their username and password and get access tokens
+- [x] Customers can browse all categories 
+- [x] Customers can browse all the menu items at once
+- [x] Customers can browse menu items by category
+- [x] Customers can paginate menu items
+- [x] Customers can sort menu items by price
+- [x] Customers can add menu items to the cart
+- [ ] Customers can access previously added items in the cart
+- [x] Customers can place orders
+- [x] Customers can browse their own orders
 
 ## API Endpoints
 API Endpoints:
