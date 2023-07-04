@@ -32,48 +32,6 @@ By the end of this course you will be able to:
 - [x] Customers can place orders
 - [x] Customers can browse their own orders
 
-## API Endpoints
-API Endpoints:
-
-### User Registration and Token Generation Endpoints:
--	/api/users
--	/api/users/users/me/
--	/token/login/
-
-### Menu Item Endpoints:
--	/api/menu-items
--	/api/menu-items
--	/api/menu-items/{menuItem}
--	/api/menu-items/{menuItem}
--	/api/menu-items
--	/api/menu-items
--	/api/menu-items/{menuItem}
--	/api/menu-items/{menuItem}
--	/api/menu-items/{menuItem}
-
-### User group management endpoints:
--	/api/groups/manager/users
--	/api/groups/manager/users
--	/api/groups/manager/users/{userId}
--	/api/groups/delivery-crew/users
--	/api/groups/delivery-crew/users
--	/api/groups/delivery-crew/users/{userId}
-
-### Cart management endpoints:
--	/api/cart/menu-items
--	/api/cart/menu-items
--	/api/cart/menu-items
-
-### Order management endpoints:
--	/api/orders
--	/api/orders
--	/api/orders/{orderId}
--	/api/orders
--	/api/orders/{orderId}
--	/api/orders/{orderId}
--	/api/orders
--	/api/orders/{orderId}
-
 ## Running the API
 1. Prepare your virtual environment and install all dependencies using the following commands:
 
@@ -90,3 +48,27 @@ API Endpoints:
 - `python manage.py migrate`
 
 - `python manage.py runserver`
+
+## API Endpoints
+### Postman Collection: LittleLemon API
+After running the E-Commerce application, a Postman Collection containing all available API endpoints is provided for your convenience. To utilize Postman collection, you can easily fork it into your own Postman workspace. This allows you to have your own copy of the collection, which you can modify and customize according to your specific needs.
+
+To fork the Postman collection, please follow the steps below:
+1. Ensure that you have Postman installed on your computer. If you don't have it yet, you can download it from the [official website](https://www.postman.com/downloads/).
+2. Open Postman and log in to your account. If you don't have an account, you can create one for free.
+3. Once you're logged in, click on the Collections tab located in the left sidebar.
+4. In the collections view, click on the New button to create a new collection.
+5. Give your new collection a meaningful name, such as "LittleLemon API Fork."
+6. Now, click on the Import button located at the top right corner of the collections view.
+7. In the Import dialog, select the Link tab.
+8. Copy the link to the E-Commerce API collection you wish to fork.
+9. Paste the link into the Link field in the Import dialog.
+10. Click on the Import button to initiate the forking process.
+
+Postman will create a copy of the LittleLemonAPI collection and add it to your workspace. You can now see the newly imported collection listed in your collections view.
+
+The collection is organized into folders, making it easy to navigate and locate the specific endpoints you need. Each folder corresponds to a specific area of functionality within the LittleLemonAPI application.
+
+Please refer to the documentation provided within each folder for detailed information about the available endpoints, their parameters, and the expected responses.
+
+Feel free to explore the endpoints, test different API requests.
