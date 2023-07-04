@@ -17,9 +17,9 @@ By the end of this course you will be able to:
 - [x] Managers can log in 
 - [x] Managers can update the item of the day
 - [x] Managers can assign users to the delivery crew
-- [ ] Managers can assign orders to the delivery crew
+- [x] Managers can assign orders to the delivery crew
 - [x] The delivery crew can access orders assigned to them
-- [ ] The delivery crew can update an order as delivered
+- [x] The delivery crew can update an order as delivered
 - [x] Customers can register
 - [x] Customers can log in using their username and password and get access tokens
 - [x] Customers can browse all categories 
@@ -28,7 +28,7 @@ By the end of this course you will be able to:
 - [x] Customers can paginate menu items
 - [x] Customers can sort menu items by price
 - [x] Customers can add menu items to the cart
-- [ ] Customers can access previously added items in the cart
+- [x] Customers can access previously added items in the cart
 - [x] Customers can place orders
 - [x] Customers can browse their own orders
 
